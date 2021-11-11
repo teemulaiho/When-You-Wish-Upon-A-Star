@@ -1,0 +1,8 @@
+Sprites:
+TradingPost: https://opengameart.org/content/forester-hut
+FallenStar: https://opengameart.org/content/star-and-take-effect
+StarChaser: https://opengameart.org/content/green-cap-character-16x18
+
+Pinetree: https://opengameart.org/content/pine-tree-tiles
+
+Age of Empires 2 Spritesheets: http://aok.heavengames.com/blacksmith/showfile.php?fileid=12501 & https://www.spriters-resource.com/pc_computer/ageofempiresii/

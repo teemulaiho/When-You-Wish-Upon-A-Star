@@ -1,0 +1,49 @@
+Common Quest: What happened to living off the grid!
+The old Cartesian scholars believed the world to be flat and according to H. Lewis it is hip to be square.
+
+Pass Requirements:
+ Create a grid-based 2D world (Flat 2 dimensional grid/map/field of squares/cells/tiles).
+ The grid needs to be displayed on the screen.
+ Each grid should have a property if they are blocked or not.
+ At the start, randomize all grid squares to be a random starting type and blocked/non-blocked.
+ Graphically display if a grid is blocked or not or contains a specific entity.
+ The student must implement the ability for the teacher to change, place and remove entities
+and grid types in the grid world to sufficiently test the algorithms.
+
+---
+
+Common Quest: Starchaser Orin!
+The job description of the starchaser is quite daunting but on the other hand quite simple Find a star, get
+the star and sell the star.
+
+Pass Requirements:
+ Create an Spaceship Entity and place on random non-blocked square (visually represented)
+ Create an Trading Post Entity and place on a random non-blocked square (visually represented)
+ Create a Fallen Star Entity and place on a random non-blocked square (visually represented)
+ Create a Starchaser Entity and place on a random non-blocked square, the Starchaser utilizes a
+Finite State Machine (FSM) and A* to:
+o Find and travel to pick up the Fallen Star
+o Find and travel to the Trading Post to sell the Fallen Star
+o Find and travel to the Spaceship to rest.
+o The Starchaser has stamina that is reduced for every step they take while carrying the
+Fallen Star, if stamina reaches zero they will drop the Fallen Star on the square they are
+standing in and go rest in the Spaceship.
+ Visualize the path the Starchaser is following.
+
+---
+
+Epic Quest: Searching, Jumping, Pointing, Grabbing and Cheering!
+It takes too long! You are doing it to slow! Hurry master! I heard jumping and pointing while searching is
+something that is faster!
+
+Pass Requirements:
+ Implement Jump-Point Search algorithm (JSP)
+ Implement the ability to select if the Starchaser should use A* or JPS when pathfinding,
+
+---
+
+Useful Resources
+[1] - http://users.cecs.anu.edu.au/~dharabor/data/papers/harabor-grastien-aaai11.pdf
+[2] - https://zerowidth.com/2013/a-visual-explanation-of-jump-point-search.html
+[3] - http://theory.stanford.edu/~amitp/GameProgramming/index.html
+[3] - https://www.gamedev.net/tutorials/programming/artificial-intelligence/jump-point-search-fast-apathfinding-for-uniform-cost-grids-r4220/
